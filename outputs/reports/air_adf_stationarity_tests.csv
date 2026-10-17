@@ -1,0 +1,4 @@
+Stage,ADF_Statistic,p_value,Used_Lags,N_Obs,Critical_1%,Critical_5%,Critical_10%,Conclusion
+"1. Chuỗi gốc Y_t (d=0, D=0)",0.815369,0.99188,13,130,-3.4817,-2.884,-2.5788,Không dừng (Non-Stationary)
+"2. Sai phân thường Delta Y_t (d=1, D=0)",-2.829267,0.054213,12,130,-3.4817,-2.884,-2.5788,Không dừng (Non-Stationary)
+"3. Sai phân thường + mùa vụ Delta_12 Delta Y_t (d=1, D=1, s=12)",-15.595618,0.0,0,130,-3.4817,-2.884,-2.5788,Dừng (Stationary)

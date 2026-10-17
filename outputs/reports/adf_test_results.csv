@@ -1,0 +1,5 @@
+Series,ADF_Statistic,p_value,Used_Lags,N_Obs,Critical_1%,Critical_5%,Critical_10%,Conclusion
+Chuỗi gốc Y_t,3.145186,1.0,15,188,-3.4656,-2.877,-2.575,Không dừng (Non-Stationary)
+Sai phân bậc 1 (Delta Y_t - autolag='AIC'),-2.495172,0.116653,15,187,-3.4658,-2.8771,-2.5751,Không dừng (Non-Stationary)
+Sai phân bậc 1 (Delta Y_t - maxlag=1),-13.463459,0.0,1,201,-3.4633,-2.876,-2.5745,Dừng (Stationary)
+Sai phân bậc 1 trên chuỗi Log (Delta ln(Y_t)),-4.519432,0.000181,13,189,-3.4654,-2.877,-2.575,Dừng (Stationary)

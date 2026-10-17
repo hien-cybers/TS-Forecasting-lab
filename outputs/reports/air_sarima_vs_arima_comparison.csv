@@ -1,0 +1,5 @@
+Model,AIC (Train),BIC (Train),MAE (Test),RMSE (Test),MAPE (Test %),Ljung-Box p-val (Lag 12),Converged
+"ARIMA(1,1,1) [Non-Seasonal]",1058.2456,1066.4542,85.2542,97.4996,21.2913,0.0,True
+"ARIMA(2,1,1) [Non-Seasonal]",1058.6476,1069.5924,60.529,82.6211,12.9,0.0,True
+"SARIMA(0,1,1)(0,1,1,12) [Airline Model]",756.3803,764.2552,24.0803,30.5965,5.1574,0.521688,True
+"SARIMA(1,1,1)(1,1,1,12) [Full SARIMA]",758.2602,771.3851,23.5556,30.1418,5.0527,0.721358,True
